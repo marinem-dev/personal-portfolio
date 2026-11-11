@@ -1,13 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>MARINE'S WORLD</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <script src="index.js"></script>
-  </body>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <!-- BOOT SCREEN -->
+    <section id="boot-screen" class="screen active">
+
+        <!-- System Header -->
+        <header class="boot-header">
+            <h1>MARINES_WRLD [VERSION 0.1.0]</h1>
+            <h5 style="margin-bottom: 15px;">COPYRIGHT (C) 2026 MRE.INC</p>
+        </header>
+
+        <!-- Boot Messages -->
+        <div class="boot-logs" aria-label="System initialization messages">
+            <p>[00:00:01] INITIALIZING SYSTEMS............[OK]</p>
+            <p>[00:00:02] LOADING MEMORY MODULES..........[OK]</p>
+            <p>[00:00:03] CONFIGURING EASTER EGGS.........[OK]</p>
+            <p>[00:00:04] LOADING USER ENVIRONMENT........[OK]</p>
+            <p style="margin-bottom: 40px;">[00:00:05] SYSTEM INTEGRITY VERIFIED.......[OK]</p>
+        </div>
+
+        <!-- System Information -->
+        <div class="boot-info">
+            <p>DEVICE_ID     : USE CSS TO DETERMINE</p>
+            <p>SYSTEM_CLASS  : VISITOR TERMINAL</p>
+            <p>ENVIRONMENT   : DEMO</p>
+            <p>ACCESS_LEVEL  : VISITOR</p>
+            <p>SYSTEM_STATUS : ALMOST OPERATIONAL</p>
+            <p style="margin-bottom: 40px;">ACTIVATED_DATE: INCLUDE DATE</p>
+        </div>
+
+        <!-- Final System Message -->
+        <footer class="boot-footer">
+            <p>INITIALIZATION COMPLETE.</p>
+            <p>LOADING MARINE'S WORLD...</p>
+        </footer>
+
+    </section>
+
+    <!-- WELCOME SCREEN -->
+    <section id="welcome-screen" class="screen">
+    </section>
+
+    <!-- MAIN TERMINAL -->
+    <section id="terminal-screen" class="screen">
+    </section>
+</body>
 </html>
